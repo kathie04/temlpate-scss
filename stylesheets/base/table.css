@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  background: #fff;
+  color: #000; }
+  * + table {
+    margin-top: 20px; }
+  table caption {
+    text-align: left; }
+  table td, table th {
+    text-align: left;
+    border: 1px solid #e5e5e5;
+    border-width: 0 0 1px;
+    padding: 16px;
+    vertical-align: top; }
+
+.table-shrink {
+  width: 1px; }
+
+.table-expand {
+  min-width: 150px; }
